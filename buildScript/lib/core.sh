@@ -3,6 +3,10 @@
 buildScript/lib/core/init.sh
 cd ..
 ls -la
+cd jisd
+ls -la
+libcore
+ls -la
 rm -rf sing-box
 #git clone -b building https://github.com/PuerNya/sing-box.git sing-box
 #git clone -b dev-next-yaott https://github.com/CHIZI-0618/sing-box.git sing-box
