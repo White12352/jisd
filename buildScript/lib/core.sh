@@ -7,6 +7,9 @@ rm -rf sing-box
 #git clone -b dev-next-yaott https://github.com/CHIZI-0618/sing-box.git sing-box
 git clone -b sing-box-b-t https://github.com/White12352/sing-box.git sing-box
 git clone -b dev https://github.com/White12352/sing sing
+git clone -b 1.8.14 https://github.com/MatsuriDayo/sing-box.git sing-box-p
+cp -rf sing-box-p/nekoutils sing-box
+rm -rf sing-box-p
 #git clone -b main https://github.com/matsuridayo/libneko libneko
 #svn co https://github.com/MatsuriDayo/sing-box/branches/1.6.a2/nekoutils sing-box/nekoutils
 #awk '/^replace/ && !found {print "replace github.com/sagernet/sing => ../sing"; found=1} 1' sing-box-extra/go.mod > go.mod.tmp && mv -f go.mod.tmp sing-box-extra/go.mod
