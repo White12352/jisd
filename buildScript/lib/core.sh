@@ -5,7 +5,7 @@ cd ..
 ls -la
 cd jisd
 ls -la
-libcore
+cd libcore
 ls -la
 rm -rf sing-box
 #git clone -b building https://github.com/PuerNya/sing-box.git sing-box
